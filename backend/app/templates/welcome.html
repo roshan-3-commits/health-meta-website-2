@@ -1,0 +1,55 @@
+    const htmlContent = `
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #0b0f17; color: #f1f5f9; padding: 36px 24px; border-radius: 20px; max-width: 600px; margin: 0 auto; border: 1px solid #1e293b; box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
+  <!-- Brand Header -->
+  <div style="text-align: center; margin-bottom: 28px;">
+    <div style="display: inline-block; background: linear-gradient(135deg, #0066FF, #0052cc); padding: 14px; border-radius: 18px; margin-bottom: 12px; box-shadow: 0 4px 15px rgba(0, 102, 255, 0.35);">
+      <span style="font-size: 32px;">🥗⚡</span>
+    </div>
+    <h1 style="color: #ffffff; margin: 0; font-size: 26px; font-weight: 900; letter-spacing: -0.5px;">Welcome to Health-Meta!</h1>
+    <p style="color: #94a3b8; font-size: 14px; margin-top: 6px; font-weight: 500;">Mifflin-St Jeor Metabolic Intelligence &amp; Daily Nutrition Engine</p>
+  </div>
+
+  <!-- Personal Greeting Card -->
+  <div style="background-color: #111827; border: 1px solid #1f2937; border-radius: 16px; padding: 24px; margin-bottom: 22px;">
+    <h2 style="color: #ffffff; font-size: 20px; margin-top: 0; font-weight: 700;">Hello ${cleanName} 👋,</h2>
+    <p style="font-size: 15px; line-height: 1.65; color: #cbd5e1; margin-bottom: 14px;">
+      Aapka <strong>Health-Meta</strong> par hardik swagat hai! Aapka account (<strong style="color: #38bdf8;">${toEmail}</strong>) successfully login aur activate ho chuka hai.
+    </p>
+    <p style="font-size: 14px; line-height: 1.6; color: #94a3b8; margin: 0;">
+      We're thrilled to have you onboard! Health-Meta is engineered to give you effortless control over your diet, macros, and fitness goals with clinical-grade accuracy.
+    </p>
+  </div>
+
+  <!-- Key Features Unlocked -->
+  <div style="background-color: #0e131d; border: 1px solid #1c2738; border-radius: 14px; padding: 18px; margin-bottom: 22px;">
+    <h3 style="color: #38bdf8; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 0; margin-bottom: 12px; font-weight: 800;">
+      🚀 What You Can Do Right Now:
+    </h3>
+    <ul style="margin: 0; padding-left: 18px; color: #cbd5e1; font-size: 13px; line-height: 1.7;">
+      <li><strong>AI Food Scanner:</strong> Snap or upload any meal for instant clinical calorie &amp; macro breakdown.</li>
+      <li><strong>Mifflin-St Jeor Engine:</strong> Personalized BMR &amp; TDEE calculation tailored to your exact biometric profile.</li>
+      <li><strong>Daily Meal Log &amp; Streak:</strong> Log daily calories and maintain consistency with the streak tracker.</li>
+      <li><strong>Real-Time Workout &amp; Burn:</strong> Calculate custom MET calorie expenditure to dynamically offset your intake.</li>
+    </ul>
+  </div>
+
+  <!-- Verification / Meta Badge -->
+  <div style="background-color: #0f172a; border-radius: 12px; padding: 16px; margin-bottom: 24px; border-left: 4px solid #10b981;">
+    <p style="margin: 0; font-size: 13px; color: #e2e8f0; line-height: 1.6;">
+      ✅ <strong>Account Status:</strong> Successfully Activated &amp; Verified<br/>
+      👤 <strong>User Name:</strong> ${cleanName}<br/>
+      📧 <strong>Recipient:</strong> ${toEmail}<br/>
+      ✉️ <strong>Dispatched From:</strong> ${fromEmail} (Roshan Lokhande)<br/>
+      ⏰ <strong>Login Timestamp:</strong> ${login_time} IST
+    </p>
+  </div>
+
+  <!-- Sign-off & Founder Details -->
+  <div style="text-align: center; border-top: 1px solid #1e293b; padding-top: 20px; color: #64748b; font-size: 12px; line-height: 1.6;">
+    Warm regards,<br/>
+    <strong style="color: #ffffff; font-size: 14px;">Roshan Lokhande</strong><br/>
+    Founder &amp; Developer, Health-Meta<br/>
+    <a href="mailto:roshanlokhande43@gmail.com" style="color: #38bdf8; text-decoration: none;">roshanlokhande43@gmail.com</a>
+  </div>
+</div>
+    `;

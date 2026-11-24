@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+  Health Meta design tokens: light, fresh and friendly.
+  Token names are kept from the first design so every page picks up the new look:
+    turmeric  = brand green, used for buttons and actions
+    pudina    = protein (violet)   ragi = carbs (amber)
+    chili     = fat (rose)         water = water (sky blue)
+    leaf-*    = dark-mode surfaces (deep navy)
+    steel/rice/ink = muted text, light text, main text
+*/
+@theme {
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Plus Jakarta Sans', ui-sans-serif, system-ui, 'Segoe UI', Roboto, sans-serif;
+
+  --color-leaf-950: #060a14;
+  --color-leaf-900: #0b1220;
+  --color-leaf-800: #111a2c;
+  --color-leaf-700: #1a2539;
+  --color-leaf-600: #27344c;
+  --color-steel: #94a3b8;
+  --color-rice: #f1f5f9;
+
+  --color-turmeric: #22c55e;
+  --color-turmeric-deep: #16a34a;
+  --color-pudina: #8b5cf6;
+  --color-ragi: #f59e0b;
+  --color-chili: #f43f5e;
+  --color-water: #0ea5e9;
+
+  --color-steel-50: #f6faf7;
+  --color-ink: #0f172a;
+
+  /* Tailwind's amber is the brand-green scale (it marks actions across older pages). */
+  --color-amber-50: #f0fdf4;
+  --color-amber-100: #dcfce7;
+  --color-amber-200: #bbf7d0;
+  --color-amber-300: #86efac;
+  --color-amber-400: #4ade80;
+  --color-amber-500: #22c55e;
+  --color-amber-600: #16a34a;
+  --color-amber-700: #15803d;
+  --color-amber-800: #166534;
+  --color-amber-900: #14532d;
+  --color-amber-950: #052e16;
+
+  --shadow-soft: 0 1px 2px rgba(15, 23, 42, 0.04), 0 8px 24px -6px rgba(15, 23, 42, 0.08);
+  --shadow-lift: 0 2px 4px rgba(15, 23, 42, 0.04), 0 24px 48px -12px rgba(15, 23, 42, 0.18);
+}
+
+html.dark,
+body.dark {
+  background-color: var(--color-leaf-900);
+  color: var(--color-rice);
+  color-scheme: dark;
+}
+
+html:not(.dark),
+body:not(.dark) {
+  background-color: var(--color-steel-50);
+  color: var(--color-ink);
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  letter-spacing: -0.025em;
+}
+
+/* Hide default browser scrollbar (the line on the right) across all browsers */
+html,
+body,
+#root {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+#root::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+}
+
+/* Accessibility: clearly visible keyboard focus */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--color-turmeric);
+  outline-offset: 2px;
+}
+
+/* Slow drifting colour glows behind the page */
+@keyframes hm-drift {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(3%, -4%, 0) scale(1.08); }
+}
+.hm-drift {
+  animation: hm-drift 18s ease-in-out infinite;
+}
+.hm-drift-slow {
+  animation: hm-drift 26s ease-in-out infinite reverse;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

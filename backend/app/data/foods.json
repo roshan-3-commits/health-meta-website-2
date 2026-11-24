@@ -1,0 +1,883 @@
+[
+  {
+    "foodName": "Steamed White Basmati Rice Bowl",
+    "portionSize": "1 medium bowl (150g)",
+    "calories": 195,
+    "proteinG": 4.1,
+    "carbsG": 43.2,
+    "fatG": 0.4,
+    "fiberG": 0.9,
+    "sugarG": 0.1,
+    "sodiumMg": 3,
+    "confidence": "High",
+    "confidencePercentage": 99.2,
+    "healthScore": 82,
+    "dietaryTags": [
+      "Gluten-Free",
+      "Vegetarian",
+      "Vegan",
+      "Clean-Carb"
+    ],
+    "breakdown": [
+      {
+        "name": "Cooked Steamed Basmati Rice",
+        "portion": "150g",
+        "calories": 190,
+        "proteinG": 4.0,
+        "carbsG": 42.5,
+        "fatG": 0.4
+      },
+      {
+        "name": "Mineral Sea Salt & Water Prep",
+        "portion": "0.5g",
+        "calories": 5,
+        "proteinG": 0.1,
+        "carbsG": 0.7,
+        "fatG": 0.0
+      }
+    ],
+    "cookingMethod": "Steamed / Boiled in Filtered Water",
+    "glycemicIndex": "Medium",
+    "micronutrients": [
+      {
+        "name": "Selenium",
+        "amount": "11.8 mcg (21% DV)"
+      },
+      {
+        "name": "Folate (B9)",
+        "amount": "91 mcg (23% DV)"
+      },
+      {
+        "name": "Manganese",
+        "amount": "0.7 mg (32% DV)"
+      }
+    ],
+    "summary": "Pure long-grain carbohydrate staple offering immediate cellular energy replenishment with near-zero fat content."
+  },
+  {
+    "foodName": "Paneer Butter Masala with 2 Whole Wheat Roti",
+    "portionSize": "1 bowl paneer (200g) + 2 rotis (70g)",
+    "calories": 520,
+    "proteinG": 22.4,
+    "carbsG": 48.6,
+    "fatG": 27.2,
+    "fiberG": 6.8,
+    "sugarG": 5.4,
+    "sodiumMg": 510,
+    "confidence": "High",
+    "confidencePercentage": 99.4,
+    "healthScore": 86,
+    "dietaryTags": [
+      "Vegetarian",
+      "High-Protein",
+      "Calcium-Rich",
+      "Whole-Grain"
+    ],
+    "breakdown": [
+      {
+        "name": "Fresh Cottage Cheese (Paneer Cubes)",
+        "portion": "100g",
+        "calories": 265,
+        "proteinG": 18.0,
+        "carbsG": 3.5,
+        "fatG": 20.5
+      },
+      {
+        "name": "Whole Wheat Tawa Rotis (Ghee Brushed)",
+        "portion": "2 pieces (70g)",
+        "calories": 160,
+        "proteinG": 5.5,
+        "carbsG": 31.0,
+        "fatG": 3.0
+      },
+      {
+        "name": "Spiced Tomato Cashew Gravy",
+        "portion": "120g",
+        "calories": 95,
+        "proteinG": 2.2,
+        "carbsG": 14.1,
+        "fatG": 3.7
+      }
+    ],
+    "cookingMethod": "Simmered in Rich Tomato Gravy with Toasted Whole Wheat Flatbread",
+    "glycemicIndex": "Low",
+    "micronutrients": [
+      {
+        "name": "Calcium",
+        "amount": "480 mg (48% DV)"
+      },
+      {
+        "name": "Phosphorus",
+        "amount": "310 mg (25% DV)"
+      },
+      {
+        "name": "Vitamin A",
+        "amount": "410 IU (14% DV)"
+      }
+    ],
+    "summary": "Balanced classic vegetarian feast rich in casein protein, dietary fiber, and complex carbohydrates for sustained satiety."
+  },
+  {
+    "foodName": "Yellow Dal Tadka with Jeera Rice",
+    "portionSize": "1 bowl dal (200g) + 1 cup rice (150g)",
+    "calories": 410,
+    "proteinG": 14.8,
+    "carbsG": 68.4,
+    "fatG": 9.2,
+    "fiberG": 8.5,
+    "sugarG": 2.1,
+    "sodiumMg": 460,
+    "confidence": "High",
+    "confidencePercentage": 99.1,
+    "healthScore": 92,
+    "dietaryTags": [
+      "Vegetarian",
+      "Vegan-Friendly",
+      "High-Fiber",
+      "Clean Eating"
+    ],
+    "breakdown": [
+      {
+        "name": "Toor / Moong Dal Simmered",
+        "portion": "200g",
+        "calories": 180,
+        "proteinG": 11.2,
+        "carbsG": 26.5,
+        "fatG": 3.5
+      },
+      {
+        "name": "Cumin Tempered Basmati Rice",
+        "portion": "150g",
+        "calories": 190,
+        "proteinG": 3.2,
+        "carbsG": 39.4,
+        "fatG": 2.5
+      },
+      {
+        "name": "Ghee Tadka (Cumin, Garlic, Asafoetida)",
+        "portion": "1 tsp",
+        "calories": 40,
+        "proteinG": 0.4,
+        "carbsG": 2.5,
+        "fatG": 3.2
+      }
+    ],
+    "cookingMethod": "Pressure Cooked Lentils with Aromatic Ghee Tempering",
+    "glycemicIndex": "Low",
+    "micronutrients": [
+      {
+        "name": "Folate",
+        "amount": "185 mcg (46% DV)"
+      },
+      {
+        "name": "Iron",
+        "amount": "3.2 mg (18% DV)"
+      },
+      {
+        "name": "Magnesium",
+        "amount": "65 mg (16% DV)"
+      }
+    ],
+    "summary": "Gold standard plant-based complete protein combination when legumes and cereal grains complement amino acid profiles."
+  },
+  {
+    "foodName": "Hyderabadi Chicken Dum Biryani with Onion Mint Raita",
+    "portionSize": "1 individual plate (380g)",
+    "calories": 590,
+    "proteinG": 38.5,
+    "carbsG": 64.0,
+    "fatG": 19.8,
+    "fiberG": 4.2,
+    "sugarG": 3.0,
+    "sodiumMg": 680,
+    "confidence": "High",
+    "confidencePercentage": 99.3,
+    "healthScore": 84,
+    "dietaryTags": [
+      "High-Protein",
+      "Post-Workout Fuel",
+      "Iron-Rich"
+    ],
+    "breakdown": [
+      {
+        "name": "Spiced Marinated Chicken Breast & Thigh",
+        "portion": "160g",
+        "calories": 250,
+        "proteinG": 32.0,
+        "carbsG": 2.0,
+        "fatG": 12.0
+      },
+      {
+        "name": "Fragrant Saffron Dum Basmati Rice",
+        "portion": "180g",
+        "calories": 280,
+        "proteinG": 5.0,
+        "carbsG": 56.0,
+        "fatG": 4.5
+      },
+      {
+        "name": "Chilled Cucumber Mint Curd Raita",
+        "portion": "80g",
+        "calories": 60,
+        "proteinG": 3.5,
+        "carbsG": 6.0,
+        "fatG": 2.5
+      }
+    ],
+    "cookingMethod": "Slow Dum Steam in Sealed Pot with Whole Spices",
+    "glycemicIndex": "Medium",
+    "micronutrients": [
+      {
+        "name": "Zinc",
+        "amount": "2.8 mg (25% DV)"
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": "0.6 mg (35% DV)"
+      },
+      {
+        "name": "Niacin (B3)",
+        "amount": "8.4 mg (52% DV)"
+      }
+    ],
+    "summary": "Satisfying aromatic one-pot meal delivering high bioavailable protein and essential B-complex vitamins for muscle recovery."
+  },
+  {
+    "foodName": "2 Stuffed Aloo Paratha with Plain Curd & Pickle",
+    "portionSize": "2 parathas (220g) + curd (100g)",
+    "calories": 490,
+    "proteinG": 13.5,
+    "carbsG": 69.0,
+    "fatG": 18.2,
+    "fiberG": 7.4,
+    "sugarG": 4.2,
+    "sodiumMg": 520,
+    "confidence": "High",
+    "confidencePercentage": 98.9,
+    "healthScore": 80,
+    "dietaryTags": [
+      "Vegetarian",
+      "Probiotic-Rich",
+      "Comfort Food"
+    ],
+    "breakdown": [
+      {
+        "name": "Whole Wheat Potato Spiced Parathas",
+        "portion": "2 pcs (220g)",
+        "calories": 410,
+        "proteinG": 9.5,
+        "carbsG": 62.0,
+        "fatG": 14.5
+      },
+      {
+        "name": "Fresh Plain Buffalo/Cow Milk Dahi",
+        "portion": "100g",
+        "calories": 65,
+        "proteinG": 3.8,
+        "carbsG": 5.0,
+        "fatG": 3.5
+      },
+      {
+        "name": "Spicy Mango Pickle",
+        "portion": "1 tsp (10g)",
+        "calories": 15,
+        "proteinG": 0.2,
+        "carbsG": 2.0,
+        "fatG": 0.8
+      }
+    ],
+    "cookingMethod": "Tawa Griddled with Light Ghee and Steamed Spiced Potato Filling",
+    "glycemicIndex": "Medium",
+    "micronutrients": [
+      {
+        "name": "Potassium",
+        "amount": "520 mg (15% DV)"
+      },
+      {
+        "name": "Vitamin C",
+        "amount": "14 mg (18% DV)"
+      },
+      {
+        "name": "Calcium",
+        "amount": "140 mg (14% DV)"
+      }
+    ],
+    "summary": "Traditional hearty breakfast rich in potassium, natural probiotics from fermented curd, and dietary whole wheat fiber."
+  },
+  {
+    "foodName": "Crispy Masala Dosa with Sambar & Coconut Chutney",
+    "portionSize": "1 large dosa (160g) + sambar (150g) + chutney (40g)",
+    "calories": 430,
+    "proteinG": 10.8,
+    "carbsG": 61.5,
+    "fatG": 16.0,
+    "fiberG": 6.2,
+    "sugarG": 3.8,
+    "sodiumMg": 590,
+    "confidence": "High",
+    "confidencePercentage": 99.2,
+    "healthScore": 85,
+    "dietaryTags": [
+      "Vegetarian",
+      "Fermented-Gut-Health",
+      "Gluten-Free"
+    ],
+    "breakdown": [
+      {
+        "name": "Fermented Rice & Urad Dal Crepe",
+        "portion": "110g",
+        "calories": 190,
+        "proteinG": 4.8,
+        "carbsG": 35.0,
+        "fatG": 4.0
+      },
+      {
+        "name": "Mild Mustard-Spiced Potato Masala",
+        "portion": "90g",
+        "calories": 110,
+        "proteinG": 2.0,
+        "carbsG": 18.5,
+        "fatG": 3.5
+      },
+      {
+        "name": "Drumstick Vegetable Lentil Sambar",
+        "portion": "150g",
+        "calories": 75,
+        "proteinG": 3.5,
+        "carbsG": 11.0,
+        "fatG": 1.8
+      },
+      {
+        "name": "Fresh Coconut Green Chili Chutney",
+        "portion": "40g",
+        "calories": 55,
+        "proteinG": 0.5,
+        "carbsG": 2.0,
+        "fatG": 5.2
+      }
+    ],
+    "cookingMethod": "Griddle Fried Fermented Batter with Steamed Lentil Vegetable Stew",
+    "glycemicIndex": "Low",
+    "micronutrients": [
+      {
+        "name": "Iron",
+        "amount": "2.1 mg (12% DV)"
+      },
+      {
+        "name": "Thiamine (B1)",
+        "amount": "0.22 mg (18% DV)"
+      },
+      {
+        "name": "Lauric Acid (MCTs)",
+        "amount": "2.4 g"
+      }
+    ],
+    "summary": "Naturally fermented South Indian specialty rich in gut-friendly prebiotics, electrolytes, and healthy plant fats."
+  },
+  {
+    "foodName": "Steamed Idli Sambar (3 Pieces) with Chutney",
+    "portionSize": "3 idlis (150g) + sambar (150g) + chutney (30g)",
+    "calories": 290,
+    "proteinG": 9.6,
+    "carbsG": 52.0,
+    "fatG": 5.2,
+    "fiberG": 5.8,
+    "sugarG": 2.5,
+    "sodiumMg": 420,
+    "confidence": "High",
+    "confidencePercentage": 99.5,
+    "healthScore": 95,
+    "dietaryTags": [
+      "Steamed",
+      "Zero-Oil Dish",
+      "Gut-Health",
+      "Vegan-Friendly"
+    ],
+    "breakdown": [
+      {
+        "name": "Steamed Fermented Idlis",
+        "portion": "3 pcs (150g)",
+        "calories": 175,
+        "proteinG": 6.0,
+        "carbsG": 36.5,
+        "fatG": 0.8
+      },
+      {
+        "name": "Lentil & Mixed Veggie Sambar",
+        "portion": "150g",
+        "calories": 75,
+        "proteinG": 3.1,
+        "carbsG": 11.5,
+        "fatG": 1.5
+      },
+      {
+        "name": "Fresh Coconut Roasted Chana Chutney",
+        "portion": "30g",
+        "calories": 40,
+        "proteinG": 0.5,
+        "carbsG": 4.0,
+        "fatG": 2.9
+      }
+    ],
+    "cookingMethod": "100% Steam Cooked (Oil-Free)",
+    "glycemicIndex": "Low",
+    "micronutrients": [
+      {
+        "name": "B-Complex",
+        "amount": "High (fermentation derived)"
+      },
+      {
+        "name": "Folate",
+        "amount": "65 mcg (16% DV)"
+      },
+      {
+        "name": "Magnesium",
+        "amount": "48 mg (12% DV)"
+      }
+    ],
+    "summary": "Virtually zero oil, easily digestible fermented meal recommended by dietitians worldwide for peak gut health."
+  },
+  {
+    "foodName": "Chole Bhature (2 Fluffy Bhature with Spiced Chickpeas)",
+    "portionSize": "2 bhature (160g) + chole (200g) + onions",
+    "calories": 680,
+    "proteinG": 18.2,
+    "carbsG": 88.0,
+    "fatG": 28.5,
+    "fiberG": 11.2,
+    "sugarG": 4.8,
+    "sodiumMg": 720,
+    "confidence": "High",
+    "confidencePercentage": 98.8,
+    "healthScore": 74,
+    "dietaryTags": [
+      "Vegetarian",
+      "High-Fiber",
+      "High-Energy",
+      "Iron-Rich"
+    ],
+    "breakdown": [
+      {
+        "name": "Crispy Golden Bhature",
+        "portion": "2 pcs (160g)",
+        "calories": 420,
+        "proteinG": 7.2,
+        "carbsG": 54.0,
+        "fatG": 19.5
+      },
+      {
+        "name": "Slow-Cooked Punjabi Pindi Chole",
+        "portion": "200g",
+        "calories": 245,
+        "proteinG": 10.5,
+        "carbsG": 31.0,
+        "fatG": 8.5
+      },
+      {
+        "name": "Pickled Onions & Green Chili",
+        "portion": "30g",
+        "calories": 15,
+        "proteinG": 0.5,
+        "carbsG": 3.0,
+        "fatG": 0.2
+      }
+    ],
+    "cookingMethod": "Deep Fried Leavened Bread with Slow-Simmered Spiced Garbanzo Beans",
+    "glycemicIndex": "Medium",
+    "micronutrients": [
+      {
+        "name": "Dietary Iron",
+        "amount": "4.5 mg (25% DV)"
+      },
+      {
+        "name": "Folate",
+        "amount": "190 mcg (48% DV)"
+      },
+      {
+        "name": "Zinc",
+        "amount": "2.4 mg (22% DV)"
+      }
+    ],
+    "summary": "Robust North Indian culinary legend packed with plant protein and immense fiber from mineral-rich chickpeas."
+  },
+  {
+    "foodName": "Traditional Maharashtrian Kanda Poha with Peanuts",
+    "portionSize": "1 medium bowl (180g)",
+    "calories": 270,
+    "proteinG": 6.4,
+    "carbsG": 44.0,
+    "fatG": 7.8,
+    "fiberG": 3.6,
+    "sugarG": 2.1,
+    "sodiumMg": 340,
+    "confidence": "High",
+    "confidencePercentage": 99.3,
+    "healthScore": 90,
+    "dietaryTags": [
+      "Vegetarian",
+      "Gluten-Free",
+      "Low-Fat",
+      "Iron-Rich"
+    ],
+    "breakdown": [
+      {
+        "name": "Flattened Flattened Rice (Poha)",
+        "portion": "120g hydrated",
+        "calories": 170,
+        "proteinG": 3.2,
+        "carbsG": 36.0,
+        "fatG": 1.2
+      },
+      {
+        "name": "Roasted Crunchy Peanuts",
+        "portion": "20g",
+        "calories": 55,
+        "proteinG": 2.4,
+        "carbsG": 2.0,
+        "fatG": 4.8
+      },
+      {
+        "name": "Sautéed Onions, Mustard, Turmeric & Curry Leaves",
+        "portion": "40g",
+        "calories": 45,
+        "proteinG": 0.8,
+        "carbsG": 6.0,
+        "fatG": 1.8
+      }
+    ],
+    "cookingMethod": "Steam-Soaked Rice Flakes Sautéed in Light Peanut Oil with Turmeric",
+    "glycemicIndex": "Low",
+    "micronutrients": [
+      {
+        "name": "Iron",
+        "amount": "3.6 mg (20% DV)"
+      },
+      {
+        "name": "Curcumin",
+        "amount": "Natural Antioxidant"
+      },
+      {
+        "name": "Vitamin C (Lemon Juice)",
+        "amount": "9 mg (11% DV)"
+      }
+    ],
+    "summary": "Extremely light, iron-packed breakfast staple celebrated for high bio-digestibility and antioxidant turmeric."
+  },
+  {
+    "foodName": "Crispy Punjabi Samosa (2 Pieces) with Mint & Tamarind Chutney",
+    "portionSize": "2 samosas (180g) + chutneys (40g)",
+    "calories": 480,
+    "proteinG": 7.8,
+    "carbsG": 58.0,
+    "fatG": 24.5,
+    "fiberG": 4.8,
+    "sugarG": 9.0,
+    "sodiumMg": 560,
+    "confidence": "High",
+    "confidencePercentage": 99.1,
+    "healthScore": 71,
+    "dietaryTags": [
+      "Vegetarian",
+      "Snack",
+      "Spiced Filling"
+    ],
+    "breakdown": [
+      {
+        "name": "Crispy Ajwain Pastry Crust with Spiced Potato-Pea",
+        "portion": "2 pcs (180g)",
+        "calories": 420,
+        "proteinG": 6.8,
+        "carbsG": 48.0,
+        "fatG": 23.0
+      },
+      {
+        "name": "Sweet Tamarind Dates Jaggery Chutney",
+        "portion": "25g",
+        "calories": 45,
+        "proteinG": 0.4,
+        "carbsG": 10.0,
+        "fatG": 0.1
+      },
+      {
+        "name": "Spicy Fresh Mint Coriander Chutney",
+        "portion": "15g",
+        "calories": 15,
+        "proteinG": 0.6,
+        "carbsG": 1.5,
+        "fatG": 0.4
+      }
+    ],
+    "cookingMethod": "Deep Fried Golden Brown with Carom-Seed Pastry",
+    "glycemicIndex": "High",
+    "micronutrients": [
+      {
+        "name": "Potassium",
+        "amount": "380 mg (10% DV)"
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": "0.3 mg (15% DV)"
+      }
+    ],
+    "summary": "Beloved Indian pastry filled with aromatic cumin, peas, and potatoes. Best enjoyed in moderation alongside active days."
+  },
+  {
+    "foodName": "Grilled Chicken Salad Bowl with Avocado & Olive Oil",
+    "portionSize": "1 large salad bowl (320g)",
+    "calories": 360,
+    "proteinG": 35.2,
+    "carbsG": 12.5,
+    "fatG": 18.0,
+    "fiberG": 5.2,
+    "sugarG": 2.8,
+    "sodiumMg": 390,
+    "confidence": "High",
+    "confidencePercentage": 99.6,
+    "healthScore": 98,
+    "dietaryTags": [
+      "High-Protein",
+      "Low-Carb",
+      "Keto-Friendly",
+      "Anti-Inflammatory"
+    ],
+    "breakdown": [
+      {
+        "name": "Herb-Grilled Chicken Breast Strips",
+        "portion": "160g",
+        "calories": 210,
+        "proteinG": 31.0,
+        "carbsG": 0.5,
+        "fatG": 8.5
+      },
+      {
+        "name": "Mixed Organic Baby Greens, Cucumbers & Cherry Tomatoes",
+        "portion": "110g",
+        "calories": 30,
+        "proteinG": 1.8,
+        "carbsG": 5.5,
+        "fatG": 0.4
+      },
+      {
+        "name": "Extra Virgin Olive Oil & Lemon Vinaigrette",
+        "portion": "1.5 tbsp",
+        "calories": 120,
+        "proteinG": 0.0,
+        "carbsG": 1.2,
+        "fatG": 13.5
+      }
+    ],
+    "cookingMethod": "Flame Grilled Lean Poultry with Raw Cold-Pressed Dressing",
+    "glycemicIndex": "Low",
+    "micronutrients": [
+      {
+        "name": "Vitamin K",
+        "amount": "88 mcg (74% DV)"
+      },
+      {
+        "name": "Vitamin C",
+        "amount": "28 mg (35% DV)"
+      },
+      {
+        "name": "Oleic Acid (Omega-9)",
+        "amount": "9.8 g"
+      }
+    ],
+    "summary": "Clinical-grade lean protein powerhouse delivering dense micronutrients, satiety hormones, and heart-healthy lipids."
+  },
+  {
+    "foodName": "Avocado & Poached Egg Whole-Grain Toast",
+    "portionSize": "2 slices artisan sourdough (210g)",
+    "calories": 420,
+    "proteinG": 17.2,
+    "carbsG": 36.5,
+    "fatG": 23.4,
+    "fiberG": 7.8,
+    "sugarG": 1.9,
+    "sodiumMg": 360,
+    "confidence": "High",
+    "confidencePercentage": 99.4,
+    "healthScore": 94,
+    "dietaryTags": [
+      "Vegetarian",
+      "Heart-Healthy",
+      "Fiber-Rich",
+      "Superfood"
+    ],
+    "breakdown": [
+      {
+        "name": "Toasted Stone-Ground Sourdough Slices",
+        "portion": "2 slices (80g)",
+        "calories": 175,
+        "proteinG": 6.2,
+        "carbsG": 32.0,
+        "fatG": 1.8
+      },
+      {
+        "name": "Fresh Smashed Hass Avocado",
+        "portion": "1/2 avocado (80g)",
+        "calories": 165,
+        "proteinG": 2.0,
+        "carbsG": 3.5,
+        "fatG": 15.5
+      },
+      {
+        "name": "Free-Range Soft Poached Egg",
+        "portion": "1 large (50g)",
+        "calories": 72,
+        "proteinG": 6.3,
+        "carbsG": 0.4,
+        "fatG": 5.0
+      },
+      {
+        "name": "Crushed Red Pepper, Sea Salt & Olive Drizzle",
+        "portion": "touch",
+        "calories": 8,
+        "proteinG": 0.1,
+        "carbsG": 0.6,
+        "fatG": 0.6
+      }
+    ],
+    "cookingMethod": "Water Poached Egg & Toasted Fermented Crust",
+    "glycemicIndex": "Low",
+    "micronutrients": [
+      {
+        "name": "Choline",
+        "amount": "148 mg (27% DV)"
+      },
+      {
+        "name": "Lutein & Zeaxanthin",
+        "amount": "250 mcg (Vision Support)"
+      },
+      {
+        "name": "Folate",
+        "amount": "120 mcg (30% DV)"
+      }
+    ],
+    "summary": "Balanced morning supermeal combining slow fermented grains, monounsaturated brain fats, and bioavailable lutein."
+  },
+  {
+    "foodName": "Pan-Seared Atlantic Salmon with Steamed Broccoli",
+    "portionSize": "1 dinner plate (280g)",
+    "calories": 440,
+    "proteinG": 39.5,
+    "carbsG": 7.2,
+    "fatG": 27.5,
+    "fiberG": 3.8,
+    "sugarG": 1.6,
+    "sodiumMg": 280,
+    "confidence": "High",
+    "confidencePercentage": 99.5,
+    "healthScore": 97,
+    "dietaryTags": [
+      "Omega-3 Rich",
+      "Keto",
+      "Gluten-Free",
+      "Brain Food"
+    ],
+    "breakdown": [
+      {
+        "name": "Wild Atlantic Salmon Fillet",
+        "portion": "180g",
+        "calories": 365,
+        "proteinG": 35.0,
+        "carbsG": 0.0,
+        "fatG": 24.5
+      },
+      {
+        "name": "Steamed Tender Broccoli Florets",
+        "portion": "100g",
+        "calories": 45,
+        "proteinG": 3.2,
+        "carbsG": 6.0,
+        "fatG": 0.6
+      },
+      {
+        "name": "Lemon Herb Grass-Fed Ghee Glaze",
+        "portion": "touch",
+        "calories": 30,
+        "proteinG": 0.1,
+        "carbsG": 0.6,
+        "fatG": 3.2
+      }
+    ],
+    "cookingMethod": "Skin-Crisped Pan Sear with Gentle Steam Sauté",
+    "glycemicIndex": "Low",
+    "micronutrients": [
+      {
+        "name": "EPA & DHA Omega-3",
+        "amount": "2.4 g (Optimal Cardio Range)"
+      },
+      {
+        "name": "Vitamin D3",
+        "amount": "570 IU (71% DV)"
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": "4.8 mcg (200% DV)"
+      }
+    ],
+    "summary": "World-class cardiovascular and neurological nutrition rich in marine fatty acids, bioactive sulforaphane, and clean protein."
+  },
+  {
+    "foodName": "Classic Pasta Bolognese with Shaved Parmesan",
+    "portionSize": "1 plate (350g)",
+    "calories": 560,
+    "proteinG": 29.5,
+    "carbsG": 68.0,
+    "fatG": 19.5,
+    "fiberG": 5.4,
+    "sugarG": 5.8,
+    "sodiumMg": 580,
+    "confidence": "High",
+    "confidencePercentage": 99.0,
+    "healthScore": 79,
+    "dietaryTags": [
+      "High-Energy",
+      "Mediterranean",
+      "Protein-Packed"
+    ],
+    "breakdown": [
+      {
+        "name": "Durum Wheat Al Dente Penne/Spaghetti",
+        "portion": "200g cooked",
+        "calories": 310,
+        "proteinG": 10.0,
+        "carbsG": 60.0,
+        "fatG": 2.0
+      },
+      {
+        "name": "Slow-Simmered Lean Bolognese Ragù",
+        "portion": "135g",
+        "calories": 200,
+        "proteinG": 16.5,
+        "carbsG": 6.0,
+        "fatG": 13.0
+      },
+      {
+        "name": "Aged Parmigiano Reggiano Shavings",
+        "portion": "15g",
+        "calories": 50,
+        "proteinG": 4.8,
+        "carbsG": 0.5,
+        "fatG": 3.8
+      }
+    ],
+    "cookingMethod": "Al Dente Boil with 4-Hour Simmered San Marzano Ragù",
+    "glycemicIndex": "Medium",
+    "micronutrients": [
+      {
+        "name": "Lycopene (Antioxidant)",
+        "amount": "8.5 mg"
+      },
+      {
+        "name": "Iron",
+        "amount": "3.4 mg (19% DV)"
+      },
+      {
+        "name": "Zinc",
+        "amount": "3.8 mg (35% DV)"
+      }
+    ],
+    "summary": "Satisfying endurance athlete favorite loaded with bioavailable iron, cooked tomato lycopene, and complete branch-chain amino acids."
+  }
+]
